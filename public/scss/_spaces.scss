@@ -1,0 +1,98 @@
+$margin-min: 1;
+$margin-max: 100;
+
+@for $i from $margin-min through $margin-max {
+  .mx-#{$i} {
+    margin-right: #{$i}px;
+    margin-left: #{$i}px;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .mx-#{$i}-pc {
+      margin-right: #{$i}px!important;
+      margin-left: #{$i}px!important;
+    }
+    .my-#{$i}-pc {
+      margin-top: #{$i}px!important;
+      margin-bottom: #{$i}px!important;
+    }
+    .mt-#{$i}-pc {
+      margin-top: #{$i}px!important;
+    }
+    .mr-#{$i}-pc {
+      margin-right: #{$i}px!important;
+    }
+    .mb-#{$i}-pc {
+      margin-bottom: #{$i}px!important;
+    }
+    .ml-#{$i}-pc {
+      margin-left: #{$i}px!important;
+    }
+  }
+}
+
+
+$padding-min: 1;
+$padding-max: 100;
+
+@for $i from $padding-min through $padding-max {
+  .px-#{$i} {
+    padding-right: #{$i}px;
+    padding-left: #{$i}px;
+  }
+  .py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}px;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .px-#{$i}-pc {
+      padding-right: #{$i}px!important;
+      padding-left: #{$i}px!important;
+    }
+    .py-#{$i}-pc {
+      padding-top: #{$i}px!important;
+      padding-bottom: #{$i}px!important;
+    }
+    .pt-#{$i}-pc {
+      padding-top: #{$i}px!important;
+    }
+    .pr-#{$i}-pc {
+      padding-right: #{$i}px!important;
+    }
+    .pb-#{$i}-pc {
+      padding-bottom: #{$i}px!important;
+    }
+    .ml-#{$i}-pc {
+      padding-left: #{$i}px!important;
+    }
+  }
+}
