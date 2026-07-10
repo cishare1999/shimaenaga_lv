@@ -18,13 +18,9 @@
 	</div>
 
 		<ul class="company">
-<li>
-<h3>運営会社</h3>
-<p>サンプルテキストサンプルテキスト</p>
-</li>
 
 <li>
-<h3>サイト名</h3>
+<h3>運営会社</h3>
 <p>{{config('app.com_name')}}</p>
 </li>
 
