@@ -640,10 +640,10 @@
                   {{-- <option value="21">全国百貨店共通商品券</option>
                   <option value="22">ギフト券</option> --}}
                   <option value="iphone各種">iphone各種</option>
-                  <option value="収入印紙">収入印紙</option>
+                  {{-- <option value="収入印紙">収入印紙</option> --}}
                   <option value="切手">切手</option>
-                  <option value="全国百貨店共通商品券">全国百貨店共通商品券</option>
-                  <option value="ギフト券">ギフト券</option>
+                  {{-- <option value="全国百貨店共通商品券">全国百貨店共通商品券</option> --}}
+                  {{-- <option value="ギフト券">ギフト券</option> --}}
                 </select>
               </label>
               <span class="fn12">※iphone各種を選択した場合商品説明に詳細をご入力ください。<br>※リストに表示されていない商品は現在買取を停止しております。</span>
